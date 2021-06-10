@@ -74,7 +74,7 @@ const isIsland = false;
 let language = "English";
 console.log (continent, country, isIsland, population, language);
 
- 
+
 
 //------------------------------------------------------------------------------------------------------------
 // Basic Operators
@@ -103,7 +103,13 @@ console.log(ageBita < ageChris);
 console.log(ageBita >= 20);
 console.log(ageBita >= 40);
 
-*/
+let x, y;
+x = y = 25 - 10 - 5;
+console.log (x, y);
+
+const averageAge = (ageBita + ageChris) / 2; //the parenthesis are important
+
+
 
 /* Practice assignment 4 LECTURE: Basic Operators
 1. If your country split in half, and each half would contain half the population,
@@ -115,8 +121,63 @@ Finland?
 have less people than the average country?
 5. Based on the variables you created, create a new variable 'description'
 which contains a string with this format: 'Portugal is in Europe, and its 11 million
-people speak portuguese' */
+people speak portuguese'
 
+let myPopulation = 5;
+myPopulation++;
+console.log(myPopulation);
+let finlandPopulation = 6000000;
+console.log (myPopulation >= finlandPopulation);
+let averagePopulation = 33000000;
+console.log (myPopulation >= averagePopulation);
+const description = "Portugal is in Europe, and its 11 million people speak portuguese";
+console.log(description);
+
+*/
 
 //------------------------------------------------------------------------------------------------------------
 // * CODING CHALLENGE 1
+
+/* Mark and John are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter).
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both
+versions)
+3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John.
+
+Test data:
+ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+*/ 
+
+//Data 1
+let markHeight = 1.69;
+let markWeight = 78;
+let johnHeight = 1.95;
+let johnWeight = 92;
+
+let markBMI = markWeight / (markHeight * markHeight);
+console.log(markBMI);
+let johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log(johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+
+//Data 2
+let markHeight2 = 1.88;
+let markWeight2 = 95;
+let johnHeight2 = 1.76;
+let johnWeight2 = 85;
+
+let markBMI2 = markWeight2 / (markHeight2 * markHeight2);
+console.log(markBMI2);
+let johnBMI2 = johnWeight2 / (johnHeight2 * johnHeight2);
+console.log(johnBMI2);
+
+let markHigherBMI2 = markBMI2 > johnBMI2;
+console.log(markHigherBMI2);
