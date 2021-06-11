@@ -152,7 +152,6 @@ whether Mark has a higher BMI than John.
 Test data:
  Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
  Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
-*/ 
 
 //Data 1
 let markHeight = 1.69;
@@ -181,3 +180,46 @@ console.log(johnBMI2);
 
 let markHigherBMI2 = markBMI2 > johnBMI2;
 console.log(markHigherBMI2);
+
+
+// Strings and template literals
+const firstName = "Bita";
+const job = 'Teacher';
+const birthYear = 1990;
+currentYear = 2021;
+
+const bita = "I'm " + firstName + ", a " + (currentYear - birthYear) + " year old " + job;
+console.log(bita);
+
+const bitaNew = `I'm ${firstName}, a ${currentYear - birthYear} year old ${job}`;
+console.log(bitaNew);
+
+console.log(`Just a regular string!`);
+
+console.log(`String
+with
+multiple
+lines`);
+
+//Practice
+const country = "Portugal";
+const continent = "Europe";
+const population = 11000000;
+const language = "Portuguese";
+
+const description = `${country} is in ${continent}, and its ${population} people speak ${language}`;
+console.log(description);
+
+*/
+
+// If else statements
+
+// Conversion and coercion
+
+// Equality operators
+
+// Logical operators
+
+// The switch statement
+
+// The Conditional operator
