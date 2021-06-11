@@ -210,7 +210,7 @@ const language = "Portuguese";
 const description = `${country} is in ${continent}, and its ${population} people speak ${language}`;
 console.log(description);
 
-*/
+
 
 // If else statements
 const age = 15;
@@ -232,6 +232,58 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 
+
+//CODING CHALLENGE #2
+Coding Challenge #2
+Use the BMI example from Challenge #1, and the code you already wrote, and
+improve it.
+Your tasks:
+1. Print a nice output to the console, saying who has the higher BMI. The message
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"
+
+
+//Data 1
+let markHeight = 1.69;
+let markWeight = 78;
+let johnHeight = 1.95;
+let johnWeight = 92;
+
+let markBMI = markWeight / (markHeight * markHeight);
+console.log(markBMI);
+let johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log(johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+
+if (markHigherBMI) {
+  console.log(`Marks BMI is higher at ${markBMI}`);
+} else {
+  console.log(`Johns BMI is higher at ${johnBMI}`);
+}
+
+let markHeight2 = 1.88;
+let markWeight2 = 95;
+let johnHeight2 = 1.76;
+let johnWeight2 = 85;
+
+let markBMI2 = markWeight2 / (markHeight2 * markHeight2);
+console.log(markBMI2);
+let johnBMI2 = johnWeight2 / (johnHeight2 * johnHeight2);
+console.log(johnBMI2);
+
+let markHigherBMI2 = markBMI2 > johnBMI2;
+console.log(markHigherBMI2);
+
+if (markHigherBMI2) {
+  console.log(`Marks BMI is higher at ${markBMI2}`);
+} else {
+  console.log(`Johns BMI is higher at ${johnBMI2}`);
+}
+*/
+
 // Conversion and coercion
 
 // Equality operators
@@ -241,5 +293,3 @@ console.log(century);
 // The switch statement
 
 // The Conditional operator
-
-TEST TEST 
