@@ -341,9 +341,38 @@ if (height) {
 } else {
   console.log("Height is UNDEFINED");
 }
-*/
-// Equality operators
 
+// Equality operators
+const age = 18;
+if (age === 18) console.log("You just became an adult");
+
+const favourite = Number(prompt("What is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 27) {
+  console.log("cool! 27 is an amazing number");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number!");
+} else {
+  console.log("nice!");
+}
+
+if (favourite !== 27) console.log("Why not 27?");
+
+//practice
+const numNeighbors = Number(
+  prompt("How many neighbor counties does your country have?")
+);
+
+if (numNeighbors === 1) {
+  console.log("You have one neighbor!");
+} else if (numNeighbors > 1) {
+  console.log("You have multiple neighbors!");
+} else {
+  console.log("You have no neighbors!");
+}
+*/
 // Logical operators
 
 // The switch statement
