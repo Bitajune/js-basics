@@ -484,3 +484,28 @@ switch (language) {
 */
 
 // The Conditional operator
+const age = 23;
+// age >= 21
+//   ? console.log("I like to drink wine")
+//   : console.log("I like to drink water");
+
+const drink = age >= 21 ? "wine" : "water";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "wine";
+} else {
+  drink2 = "water";
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 21 ? "wine" : "water"}`);
+
+//practice
+const population = 3000000;
+const unitedStates =
+  population >= 33000000
+    ? "The United States population is above average"
+    : "The United States population is below average";
+console.log(unitedStates);
