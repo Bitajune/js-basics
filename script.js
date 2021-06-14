@@ -481,7 +481,7 @@ switch (language) {
   default:
     console.log("That's a great language!");
 }
-*/
+
 
 // The Conditional operator
 const age = 23;
@@ -509,3 +509,13 @@ const unitedStates =
     ? "The United States population is above average"
     : "The United States population is below average";
 console.log(unitedStates);
+
+
+//CHALLENGE #4
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill} and the tip is ${tip}. The total value is ${bill + tip}`
+);
+
+*/
