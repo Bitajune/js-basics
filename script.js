@@ -286,6 +286,27 @@ if (markHigherBMI2) {
 
 // Conversion and coercion
 
+//type conversion
+const inputYear = "1991";
+console.log(Number(inputYear) + 18);
+console.log(inputYear + 18);
+
+console.log(Number("Bita"));
+console.log(typeof NaN);
+
+console.log(String(23));
+console.log(String(23), 23);
+
+//type coercion
+console.log("I am " + 30 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" * "2");
+console.log("23" > "18");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+
 // Equality operators
 
 // Logical operators
